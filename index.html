@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <script src="app.js" type="module" defer></script>
+  </head>
+  <body>
+    <section class="container w-50" id="todolist">
+      <div class="d-flex text-align-center justify-content-center">
+        <h1>Shopping</h1>
+      </div>
+
+      <form class="d-flex pb-4">
+        <input
+          required=""
+          class="form-control"
+          type="text"
+          placeholder="Acheter quelques choses..."
+          name="title"
+          id="input"
+        />
+        <button id="button" class="btn btn-primary">Ajouter</button>
+      </form>
+      <main>
+        <p>Listes des articles...</p>
+        <ul class="list-group"></ul>
+      </main>
+    </section>
+  </body>
+</html>
